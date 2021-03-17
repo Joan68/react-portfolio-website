@@ -1,7 +1,21 @@
 import React, { Component } from 'react';
+import emailjs from 'emailjs-com';
 
 class Contact extends Component {
+   
   render() {
+
+   function sendEmail(e) {
+      e.preventDefault();
+  
+      emailjs.sendForm('service_ezl5ukr', 'template_4js41ak', e.target, 'user_p8Fpt3fIBOuC113QP4vdx')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+        e.target.reset()
+    }
 
     if(this.props.data){
       var name = this.props.data.name;
@@ -34,27 +48,27 @@ class Contact extends Component {
          <div className="row">
             <div className="eight columns">
 
-               <form action="" method="post" id="contactForm" name="contactForm">
+               <form className="contact-form" onSubmit={sendEmail}>
 					<fieldset>
 
                   <div>
-						   <label htmlFor="contactName">Name <span className="required">*</span></label>
-						   <input type="text" defaultValue="" size="35" id="contactName" name="contactName" onChange={this.handleChange}/>
+						   <label htmlFor="name">Name <span className="required">*</span></label>
+						   <input type="text" defaultValue="" size="35" name="name"/>
                   </div>
 
                   <div>
 						   <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-						   <input type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" onChange={this.handleChange}/>
+						   <input type="text" defaultValue="" size="35" id="contactEmail" name="email" onChange={this.handleChange}/>
                   </div>
 
                   <div>
 						   <label htmlFor="contactSubject">Subject</label>
-						   <input type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange}/>
+						   <input type="text" defaultValue="" size="35" id="contactSubject" name="subject" onChange={this.handleChange}/>
                   </div>
 
                   <div>
                      <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                     <textarea cols="50" rows="15" id="contactMessage" name="message"></textarea>
                   </div>
 
                   <div>
