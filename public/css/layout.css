@@ -1,9 +1,4 @@
 /*
-=====================================================================
-*   Ceevee v1.0 Layout Stylesheet
-*   url: styleshout.com
-*   03-18-2014
-=====================================================================
 
    TOC:
    a. General Styles
@@ -547,7 +542,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
+   background: #1F1F1F url(../images/DSC00901.jpg) no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
@@ -560,6 +555,7 @@ call-to-action .button {
 #testimonials .text-container {
    padding-top: 96px;
    padding-bottom: 66px;
+   background-color: rgba(0, 0, 0, .7);
 }
 #testimonials h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
