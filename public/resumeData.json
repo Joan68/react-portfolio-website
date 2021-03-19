@@ -104,25 +104,48 @@
     ],
     "skills": [
       {
-        "name": "Git"
+        "name":"HTML / CSS / JS",
+        "image":"web.jpg"
       },
       {
-        "name": "Illustrator"
+        "name":"Project Management",
+        "image":"proMan.jpg"
       },
       {
-        "name": "ReactJs"
+        "name":"React",
+        "image":"react.jpg"
       },
       {
-        "name": "CSS"
+        "name":"Angular",
+        "image":"angular.jpg"
       },
       {
-        "name": "HTML5"
+        "name":"Node JS",
+        "image":"node.jpg"
       },
       {
-        "name": "VueJs"
+        "name":"OS : Windows, Linux",
+        "image":"os.jpg"
       },
       {
-        "name": "MongoDB"
+        "name":"SQL Database",
+        "image":"sql.jpg"
+      },
+      {
+        "name":"Bootstrap 4",
+        "image":"bootstrap.jpg"
+      },
+      {
+        "name":"Git",
+        "image":"git.jpg"
+      },
+      {
+        "name":"Photoshop / Lightroom",
+        "image":"adobe.jpg"
+      },
+      {
+        "name":"A+B driving license",
+        "image":"driving-licence.jpg"
       }
     ]
   },

@@ -9,8 +9,8 @@ class Resume extends Component {
           <div key={education.school}>
             <h3>{education.school}</h3>
             <p className="info">
-            <span className="educationTitle">{education.degree}</span>
-            <span>&bull;</span>
+              <span className="educationTitle">{education.degree}</span>
+              <span>&bull;</span>
               <em className="date">{education.graduated}</em>
             </p>
             <p>{education.description.point1}</p>
@@ -34,8 +34,13 @@ class Resume extends Component {
         );
       });
       var skills = this.props.data.skills.map(function (skills) {
-        var className = "skill-list " + skills.name.toLowerCase();
-        return <span key={skills.name}>{skills.name}</span>;
+        var skillImage = "images/skills/" + skills.image;
+        return (
+          <div key={skills.name} className="columns feature-item">
+            <img className="skill" alt={skills.name} src={skillImage} />
+            <h5 className="mb">{skills.name}</h5>
+          </div>
+        );
       });
     }
 
@@ -67,16 +72,15 @@ class Resume extends Component {
         <div className="row skill">
           <div className="three columns header-col">
             <h1>
-              <span>Skills</span>
+              <span>My skills</span>
             </h1>
           </div>
 
-          <div className="nine columns main-col">
-            <p>{skillmessage}</p>
-
-            <div className="skill-list">
-              <p>{skills}</p>
+          <div>
+            <div className="nine columns main-col">
+              <p className="lead center">{skillmessage}</p>
             </div>
+            <ul className="bgrid-quarters s-bgrid-thirds cf">{skills}</ul>
           </div>
         </div>
       </section>

@@ -304,6 +304,21 @@ ul#nav li.current a { color: #ffc933; }
    font-weight: bold;
 }
 
+#resume .feature-item{
+   text-align: center;
+   margin-top:2.5em;
+   padding-left:2em;
+   padding-right:2em;
+ }
+ 
+ #resume .center{
+   text-align: center;
+ }
+
+ #resume img {
+    max-width: 50%;
+ }
+
 /*----------------------------------------------*/
 /*	Skills
 /*----------------------------------------------*/
