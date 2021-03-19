@@ -737,7 +737,7 @@ call-to-action .button {
    color: #EBEEEE;
    margin-bottom: 6px;
 }
-#contact h1 span { display: none; }
+#contact h1 span { display:none; }
 #contact h1:before {
    font-family: 'FontAwesome';
    content: "\f0e0";
@@ -746,7 +746,7 @@ call-to-action .button {
    line-height: 72px;
    text-align: left;
    float: left;
-   color: #ebeeee;
+   color: #ffc933;
 }
 
 #contact h4 {
@@ -755,8 +755,11 @@ call-to-action .button {
    margin-bottom: 6px;
 }
 #contact p.lead {
+   color:white;
    font: 18px/36px 'opensans-light', sans-serif;
    padding-right: 3%;
+   font-weight: bold;
+   border-bottom: 1px solid #ffc933;
 }
 #contact .header-col { padding-top: 6px; }
 
@@ -859,13 +862,13 @@ call-to-action .button {
 footer {
    padding-top: 48px;
    margin-bottom: 48px;
-   color: #303030;
+   color: #6d6d6d;
    font-size: 14px;
    text-align: center;
    position: relative;
 }
 
-footer a, footer a:visited { color: #525252; }
+footer a, footer a:visited { color: #646464; }
 footer a:hover, footer a:focus { color: #fff; }
 
 /* copyright */
@@ -886,7 +889,7 @@ footer .copyright li:before {
     content: "\2022";
     padding-left: 10px;
     padding-right: 10px;
-    color: #095153;
+    color: #ffc933;
 }
 footer .copyright  li:first-child:before {
     display: none;
@@ -934,4 +937,7 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #0F9095; }
+#go-top a:hover { 
+   background-color: #ffc933; 
+   color: black;
+}
