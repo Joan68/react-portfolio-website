@@ -129,22 +129,22 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
-        "image": "canadian-wanderlust.jpg",
-        "url": "https://www.canadianwanderlust.com"
+        "title": "Personal Website",
+        "category": "My React personal website",
+        "image": "react-personnal-website.jpg",
+        "url": "https://www.joan-frey.fr"
       },
       {
-        "title": "Fury Fighting Gear",
-        "category": "(offline now) A fighting gear company I started",
-        "image": "fury-fighting-gear.jpg",
-        "url": "http://www.timbakerdev.com"
+        "title": "Personal Resume website",
+        "category": "My first personal angular website",
+        "image": "my-old-angular-website.jpg",
+        "url": "https://www.joan-frey.fr"
       },
       {
         "title": "Original Thai Food",
         "category": "Website I built for a restaurant I like in Thailand",
-        "image": "original-thai-food.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+        "image": "Dharma-Ayurveda.fr.jpg",
+        "url": "https://dharma-ayurveda.fr/"
       }
     ]
   },

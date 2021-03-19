@@ -773,7 +773,7 @@ call-to-action .button {
 #contact textarea:focus,
 #contact select:focus {
 	color: #fff;
-	background-color: #11ABB0;
+	background-color: #ffc933;
 }
 #contact button.submit {
 	text-transform: uppercase;
@@ -804,7 +804,7 @@ call-to-action .button {
    margin-left: 26%;
 }
 #message-warning { color: #D72828; }
-#message-success { color: #11ABB0; }
+#message-success { color: #ffc933; }
 
 #message-warning i,
 #message-success i {
