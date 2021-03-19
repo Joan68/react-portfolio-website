@@ -291,6 +291,14 @@ ul#nav li.current a { color: #ffc933; }
    font: 'opensans-regular', sans-serif!important;
 }
 
+#resume p {
+   margin-bottom: 5px;
+}
+
+#resume .mb {
+   margin-bottom: 30px!important;
+}
+
 /*----------------------------------------------*/
 /*	Skills
 /*----------------------------------------------*/

@@ -38,7 +38,7 @@
   "resume": {
     "skillmessage": "Here is a list of my skills !",
     "education": [
-      {
+      { 
         "school": "University?",
         "degree": "Masters in Beer tasting",
         "graduated": "April 2007",
@@ -53,23 +53,35 @@
     ],
     "work": [
       {
-        "company": "TAIT Singapore – Filiale d’Euro Information Développement",
-        "title": "Analyste développeur",
-        "years": "Septembre 2019 - Decembre 2019",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "TAIT Singapore – Euro Information Development Subsidiary",
+        "title": "Developer analyst",
+        "years": "September 2019 - December 2019",
+        "description":
+        {
+            "point1" : "• 3-months mission abroad for EID",
+            "point2" : "• Design and needs analysis of an application in an international team",
+            "point3" : "• Daily English practice"
+        }
       },
       {
-        "company": "Awesome Design Studio",
-        "title": "Senior UX God ",
-        "years": "March 2010 - Present",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
-      },
+        "company": "Euro Information Développement – Strasbourg site",
+        "title": "Developer analyst – Apprentice (engineer)",
+        "years": "September 2018 - Now",
+        "description":
+        {
+            "point1" : "• Creation of a DLL allowing the restitution of information (C# programming, SQL queries)",
+            "point2" : "• Evolution of the bank transactions monitoring tool (C programming, evolution of SQL database)",
+            "point3" : "• Project management including the completion of specifications and the respect for a quality approach"
+        }},
       {
-        "company": "Super Cool Studio",
-        "title": "Junior bug fixer",
-        "years": "March 2007 - February 2010",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
-      }
+        "company": "EuroAirport (Basel Mulhouse Airport)",
+        "title": "Technician – Apprentice (DUT)",
+        "years": "September 2016 - September 2018",
+        "description":
+        {
+            "point1" : "• Helpdesk Technician / IT park management",
+            "point2" : "• Project manager for the migration of a database"
+        }}
     ],
     "skills": [
       {
