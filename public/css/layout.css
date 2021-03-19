@@ -299,6 +299,11 @@ ul#nav li.current a { color: #ffc933; }
    margin-bottom: 30px!important;
 }
 
+#resume .workTitle, #resume .educationTitle{
+   color : #ffc933;
+   font-weight: bold;
+}
+
 /*----------------------------------------------*/
 /*	Skills
 /*----------------------------------------------*/
