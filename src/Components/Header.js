@@ -54,8 +54,6 @@ class Header extends Component {
       }
   };
     if(this.props.data){
-      var name = this.props.data.name;
-      var surname = this.props.data.surname;
       var occupation= this.props.data.occupation;
       var description= this.props.data.description;
       var city= this.props.data.address.city;
@@ -96,7 +94,9 @@ class Header extends Component {
             <h1 className="responsive-headline">
                
             </h1>
-            <h3>I'm a {city} based <span>{occupation}</span>. {description}.</h3>
+            <h3>Hello ! Welcome to my website. I'm an <span>{occupation}</span>. {description}. <span>I'm now looking for good opportunities from 10 September 2021.</span></h3>
+            <hr />
+            <span>All pictures on this website were taken by me.</span>
             <hr />
             <ul className="social">
                {networks}

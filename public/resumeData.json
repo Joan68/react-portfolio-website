@@ -3,14 +3,14 @@
     "fullname": "Joan Frey",
     "name": "FREY",
     "surname": "JOAN",
-    "occupation": "(Your Occupation Here)",
-    "description": "Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "occupation": "IT engineer",
+    "description": "currently employed by Euro Information Développement as an Apprentice Analyst Developer in Strasbourg city",
     "image": "profilepic.jpg",
-    "bio": "Bonjour et bienvenue sur mon site ! Je suis un étudiant Ingnénieur en apprentissage, passionné par le web, le design, la photographie et les nouvelles technologies. J’accumule maintenant déjà pas loin de 4 ans d’expérience professionnelle. Aujourd'hui, je travaille en alternance chez Euro Information Développement dans le domaine de l'IT banking et j'ai la chance d'y développer des compétences en gestion de projet et en programmation. Finissant mes études dans peu de temps, je souhaiterai par la suite devenir développeur web ou designer web.",
+    "bio": "Apprenticeship Engineering student, I am passionate about web, design, photography and new technologies. I accumulate nearly 5 years of professional experience. I’ m currently working as an alternate at Euro Information Développement in the field of IT Banking, where I develop programming and project management skills.",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
     "email": "joancontactme@gmail.com",
     "address": {
-      "city": "Kingersheim",
+      "city": "Mulhouse",
       "state": "Alsace",
       "zip": "68260"
     },

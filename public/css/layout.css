@@ -67,14 +67,15 @@ header .banner-text h3 {
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
 }
 header .banner-text h3 span,
-header .banner-text h3 a {
+header .banner-text h3 a,
+header .banner-text span {
    color: #fff;
 }
 header .banner-text hr {
    width: 60%;
    margin: 18px auto 24px auto;
-   border-color: #2F2D2E;
-   border-color: rgba(150, 150, 150, .1);
+   border-color: #ffc933;
+   border-color: rgba(255, 201, 51, .6);
 }
 
 /* header social links */
@@ -583,7 +584,7 @@ call-to-action .button {
 #testimonials .text-container {
    padding-top: 96px;
    padding-bottom: 66px;
-   background-color: rgba(0, 0, 0, .7);
+   background-color: rgba(0, 0, 0, .6);
 }
 #testimonials h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
