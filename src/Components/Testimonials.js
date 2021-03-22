@@ -1,3 +1,4 @@
+import { nodeName } from "jquery";
 import React, { Component } from "react";
 import { Document, Page, pdfjs } from "react-pdf";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
@@ -7,11 +8,18 @@ class Testimonials extends Component {
   onDocumentLoadSuccess = ({ numPages }) => {
     this.setState({ numPages });
   };
-
-  goToPrevPage = () =>
-    this.setState((state) => ({ pageNumber: state.pageNumber - 1 }));
-  goToNextPage = () =>
-    this.setState((state) => ({ pageNumber: state.pageNumber + 1 }));
+  // goToPrevPage = () =>
+  //   this.setState((state) => ({ pageNumber: state.pageNumber - 1 }));
+  // goToNextPage = () =>
+  //   this.setState((state) => ({ pageNumber: state.pageNumber + 1 }));
+  hideAndShow = () => {
+  var x = document.getElementById("eapPDF");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+};
 
   render() {
     if (this.props.data) {
@@ -42,23 +50,23 @@ class Testimonials extends Component {
             <div className="ten columns flex-container">
               <ul className="slides">{testimonials}</ul>
               <div>
-                <nav>
+                {/* <nav>
                   <button onClick={this.goToPrevPage}>Prev</button>
                   <button onClick={this.goToNextPage}>Next</button>
-                </nav>
+                </nav> */}
+                <button id="buttonTogglePdf" onClick={this.hideAndShow}>Show official letter</button>
 
-                <div style={{ width: 600 }}>
+                <div id="eapPDF" style={{ display:"none"}}>
                   <Document
                     file="./eap.pdf"
                     onLoadSuccess={this.onDocumentLoadSuccess}
                   >
                     <Page pageNumber={pageNumber} width={600} />
                   </Document>
-                </div>
-
-                <p>
+                  <p>
                   Page {pageNumber} of {numPages}
                 </p>
+                </div>
               </div>
             </div>
           </div>
