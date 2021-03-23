@@ -348,12 +348,12 @@ ul#nav li.current a { color: #ffc933; }
    padding-bottom: 60px;
 }
 #portfolio h1 {
-   font: 15px/24px 'opensans-semibold', sans-serif;
+   font: 20px/26px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
    margin-bottom: 48px;
-   color: #95A3A3;
+   color: black;
 }
 
 /* Portfolio Content */
@@ -587,10 +587,11 @@ call-to-action .button {
    background-color: rgba(0, 0, 0, .6);
 }
 #testimonials h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
+   font: 24px/30px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
-   color: #fff;
+   color: #ffc933;
+   font-weight: bolder;
 }
 #testimonials h1 span { display: none; }
 #testimonials .header-col { padding-top: 9px; }
@@ -735,7 +736,7 @@ call-to-action .button {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
-   color: #EBEEEE;
+   color: #ffc933;
    margin-bottom: 6px;
 }
 #contact h1 span { display:none; }

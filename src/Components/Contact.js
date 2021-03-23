@@ -10,19 +10,14 @@ class Contact extends Component {
   
       emailjs.sendForm('service_ezl5ukr', 'template_4js41ak', e.target, 'user_p8Fpt3fIBOuC113QP4vdx')
         .then((result) => {
-            console.log(result.text);
+            console.log('SUCCESS!', result.text);
         }, (error) => {
-            console.log(error.text);
+            console.log('FAILED...', error.text);
         });
         e.target.reset()
     }
 
     if(this.props.data){
-      var name = this.props.data.name;
-      var city = this.props.data.address.city;
-      var state = this.props.data.address.state;
-      var zip = this.props.data.address.zip;
-      var email = this.props.data.email;
       var message = this.props.data.contactmessage;
     }
 
@@ -33,7 +28,7 @@ class Contact extends Component {
 
             <div className="two columns header-col">
 
-               <h1><span>Get In Touch.</span></h1>
+               <h1><span>CONTACT ME.</span></h1>
 
             </div>
 
@@ -48,6 +43,7 @@ class Contact extends Component {
          <div className="row">
             <div className="eight columns">
 
+               {/* Form to send mails */}
                <form className="contact-form" onSubmit={sendEmail}>
 					<fieldset>
 
