@@ -792,7 +792,7 @@ call-to-action .button {
 #contact input:focus,
 #contact textarea:focus,
 #contact select:focus {
-	color: #fff;
+	color: black;
 	background-color: #ffc933;
 }
 #contact button.submit {

@@ -49,22 +49,22 @@ class Contact extends Component {
 
                   <div>
 						   <label htmlFor="name">Name <span className="required">*</span></label>
-						   <input type="text" defaultValue="" size="35" name="name"/>
+						   <input type="text" defaultValue="" size="35" name="name" required/>
                   </div>
 
                   <div>
 						   <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-						   <input type="text" defaultValue="" size="35" id="contactEmail" name="email" onChange={this.handleChange}/>
+						   <input type="email" defaultValue="" size="35" id="contactEmail" name="email" required onChange={this.handleChange}/>
                   </div>
 
                   <div>
 						   <label htmlFor="contactSubject">Subject</label>
-						   <input type="text" defaultValue="" size="35" id="contactSubject" name="subject" onChange={this.handleChange}/>
+						   <input type="text" defaultValue="" size="35" id="contactSubject" name="subject" required onChange={this.handleChange}/>
                   </div>
 
                   <div>
                      <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                     <textarea cols="50" rows="15" id="contactMessage" name="message"></textarea>
+                     <textarea cols="50" rows="15" id="contactMessage" name="message" required></textarea>
                   </div>
 
                   <div>
