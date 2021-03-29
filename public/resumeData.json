@@ -25,12 +25,12 @@
       },
       {
         "name": "github",
-        "url": "http://github.com/tbakerx",
+        "url": "https://github.com/Joan68/" ,
         "className": "fa fa-github"
       },
       {
         "name": "skype",
-        "url": "http://skype.com",
+        "url": "https://join.skype.com/invite/F9zehjAgpoLv",
         "className": "fa fa-skype"
       }
     ]
@@ -174,7 +174,7 @@
   "testimonials": {
     "testimonials": [
       {
-        "text": "These missions allowed him to acquire technical skills, really good relations with our clients and the sense of organization.",
+        "text": "'These missions allowed him to acquire technical skills, really good relations with our clients and the sense of organization.'",
         "user": "Stéphane GERHARDT - EuroAirport IT Manager"
       }
     ]
