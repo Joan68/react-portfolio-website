@@ -20,7 +20,7 @@ class Footer extends Component {
 
            <ul className="copyright">
               <li>&copy; Copyright 2021 Joan Frey</li>
-              <li>Design by <a title="Joan" href="https://joan-frey.com/" target="_blank" rel="noopener noreferrer">Joan Frey</a></li>
+              <li>Design by <a title="Joan" href="https://joan-frey.fr/" target="_blank" rel="noopener noreferrer">Joan Frey</a></li>
               <li>Icon of the website made By Freepik</li>
            </ul>
 
