@@ -93,7 +93,7 @@ class Header extends Component {
             <h1 className="responsive-headline">
                
             </h1>
-            <h3>Hello ! Welcome to my website. I'm an <span>{occupation}</span>. {description}. <span>I'm now looking for good opportunities from 10 September 2021.</span></h3>
+            <h3>Hello ! Welcome to my website. I'm an <span>{occupation}</span>, {description}. <span>I'm now looking for good opportunities from 10 September 2021.</span></h3>
             <hr />
             <span>All pictures on this website were taken by me.</span>
             <hr />

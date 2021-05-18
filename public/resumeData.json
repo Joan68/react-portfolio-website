@@ -4,7 +4,7 @@
     "name": "FREY",
     "surname": "JOAN",
     "occupation": "IT engineer",
-    "description": "Currently employed by Euro Information Développement as an Apprentice Analyst Developer in Strasbourg city",
+    "description": "currently employed by Euro Information Développement as an Apprentice Analyst Developer in Strasbourg city",
     "image": "profilepic.jpg",
     "bio": "Apprenticeship Engineering student, I am passionate about web, design, photography and new technologies. I accumulate nearly 5 years of professional experience. I’ m currently working as an alternate at Euro Information Développement in the field of IT Banking, where I develop programming and project management skills.",
     "contactmessage": "You can directly send me an email thanks to this form",
@@ -165,7 +165,7 @@
         "title": "Personal Resume website",
         "category": "My first personal angular website",
         "image": "my-old-angular-website.jpg",
-        "url": "https://old.joan-frey.fr"
+        "url": "https://www.joan-frey.fr"
       },
       {
         "title": "Website Dharma Ayurveda",
